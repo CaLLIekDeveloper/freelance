@@ -1,0 +1,9 @@
+C:\Users\parsh\Desktop\CryptTester\CryptTester\CryptTester\bin\Debug\CryptTester.exe.config
+C:\Users\parsh\Desktop\CryptTester\CryptTester\CryptTester\bin\Debug\CryptTester.exe
+C:\Users\parsh\Desktop\CryptTester\CryptTester\CryptTester\bin\Debug\CryptTester.pdb
+C:\Users\parsh\Desktop\CryptTester\CryptTester\CryptTester\obj\Debug\CryptTester.csprojResolveAssemblyReference.cache
+C:\Users\parsh\Desktop\CryptTester\CryptTester\CryptTester\obj\Debug\CryptTester.Form1.resources
+C:\Users\parsh\Desktop\CryptTester\CryptTester\CryptTester\obj\Debug\CryptTester.Properties.Resources.resources
+C:\Users\parsh\Desktop\CryptTester\CryptTester\CryptTester\obj\Debug\CryptTester.csproj.GenerateResource.Cache
+C:\Users\parsh\Desktop\CryptTester\CryptTester\CryptTester\obj\Debug\CryptTester.exe
+C:\Users\parsh\Desktop\CryptTester\CryptTester\CryptTester\obj\Debug\CryptTester.pdb
