@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <!--Устанавливаю название странички -->
+      <title>Список</title>
+   </head>
+   <body>
+       
+       <!-- Создаю с помощью языка разметки HTML єлемент select(позволяет создать элемент интерфейса в виде раскрывающегося списка)
+            Устаналиваю на событие изменения значения функцию javascripta"changeValue"( Которую сам написал)-->
+        <select  id="list" onchange="changeValue()">
+            <!--Создаю пункты для списка и назначаю выбранным элементом для раскрывающегося списка первый пункт(Дед Мороз) с помощью
+                тега selected-->
+            <option selected>Дед Мороз</option>
+            <option>Санта Клауз</option>
+            <option>Пер-Ноэ́ль</option>
+            <option>Товлис бабуа</option>
+        </select>
+        <!--Добавляю два отсупа -->
+        <br>
+        <br>
+        <!--Добавляю на страничку картинку деда мороза и устанавливаю ей размер-->
+        <img id="img" width="1024" height="650"  src="https://cdn1.img.sputnik-georgia.com/images/23403/24/234032486.jpg" alt="Дед мороз">
+       <script>
+
+        //создаю пустой массив в котором будут храниться ссылки на картинки дедов морозов
+        var arraySantaClaus = [];
+        //создаю функцию которая заполняет массив дедов морозов
+        function fillArraySantaClause()
+        {
+            //i-му элементу массива присваиваю ссылку на нужного деда мороза
+            arraySantaClaus[0] = "https://cdn1.img.sputnik-georgia.com/images/23403/24/234032486.jpg";
+            arraySantaClaus[1] = "https://cdn2.img.sputnik-georgia.com/images/23433/43/234334353.jpg";
+            arraySantaClaus[2] = "https://cdn2.img.sputnik-georgia.com/images/23430/72/234307299.jpg";
+            arraySantaClaus[3] = "https://cdn1.img.sputnik-georgia.com/images/23436/17/234361744.jpg";
+        }   
+        //вызываю функцию которая заполняет массив санта клаусов
+        fillArraySantaClause();
+
+       //С помощью javasctipt нахожу элемент с айди "list" 
+       let list = document.getElementById('list');
+       
+        //создаю функцию которая будет вызываться при каждом изменении значения списка
+       function changeValue()
+       {
+           //получаю индекс выбранного элемента
+           let listSelectedIndex = list.selectedIndex;
+           //нахожу элемент с айди img
+           let img = document.getElementById('img');
+           //устанавливаю элементу найденного img значения поля src равным ссылке на нужного нам деда мороза
+           img.src = arraySantaClaus[listSelectedIndex];
+       }
+       </script>
+   </body>
+</html>
