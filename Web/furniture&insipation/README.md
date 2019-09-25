@@ -2,7 +2,7 @@
 Интернет-магазин по продаже детской мебели написанный на php.
 
 <p align="center">
-  <img src="https://github.com/CaLLIekDeveloper/freelance/raw/master/furniture&insipation/screenshots/1.JPG" width="100%" title="index.html">
+  <img src="https://github.com/CaLLIekDeveloper/freelance/raw/master/Web/furniture&insipation/screenshots/1.JPG" width="1000px" title="index.html">
 </p>
 
 Author  : Parshin Alexander<br>
