@@ -1,0 +1,32 @@
+textarea {
+    resize: none;
+    width: 100%;
+    height: 20%;
+}
+label{
+    padding:5px 15px; 
+    background:#1ab188; 
+    cursor:pointer;
+    border:0 none;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    width: 160px;
+    margin-left: 22px;
+    color: black;
+}
+
+input[type=submit] {
+    
+    padding:6px 15px; 
+    border: 10 none;
+    font-size: 14px;
+    background:#1ab188; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    color: white;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+input[type='submit']:hover {background-color: #066e52; color: white;}

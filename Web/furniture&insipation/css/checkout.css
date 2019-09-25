@@ -1,0 +1,45 @@
+
+#custDetailsDiv { 
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#custDetailsDiv h6 {
+    font-family: verdana, arial;
+    margin-left: 20px;
+    color: rgb(228, 121, 17);
+}
+
+#custDetailsDiv p {
+    font-family: verdana, arial;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    height: 100%;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#1ab188; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    width: 50%;
+    margin-left: -100px;
+    
+}
+
+input[type=submit]:hover {
+    background:#53d1b0; 
+    color: white;
+}
+
+

@@ -1,0 +1,152 @@
+#accountBoxDiv {
+    position: relative;
+    width: 800px;
+    height: 620px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 10px;
+    
+}
+
+#accountBoxDiv h3 {
+    margin-left: 20px;
+    font-family: verdana, arial, sans-serif;
+    color: rgb(228, 121, 17);
+}
+
+#accountThickLine {
+    position: absolute;
+    width: 800px;
+    height: 10px;
+    top: 0;
+    left: 0;
+    background-color: grey;
+}
+#h3Id
+{
+    text-align: center;
+}
+#accountDiv { 
+    width: 50%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#accountDiv p {
+    margin-left: 20px;
+    font-family: verdana, arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+/*///// FORM STYLE /////*/
+#frmAccount {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    margin-top: 20px;
+}
+
+#frmAccount input[type="text"] {
+    width: 140px;
+    height: 20px;
+    float: left;
+    border: solid 1px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#frmAccount input[type="text"]:focus {
+    border-color: #e14d0f;
+}
+
+#btnUpdate {
+    width: 70px;
+    height: 30px;
+    border: 0;
+    float: left;
+    margin-top: 10px;
+    background-color: yellowgreen;
+    color: white;
+    margin-left: 20px;
+}
+
+.spanInputs2 {
+    width: 200px;
+    float: left;
+    font-family: verdana, arial, sans-serif;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+#frmAccount input[type='submit']:hover 
+{   background-color: #e14d0f; 
+    color: white;
+}
+/*///// END OF FORM STYLE /////*/
+
+#accountImage {
+    width: 340px;
+    height: 600px;
+    float: right;
+}
+
+#accountImage img {
+    border: 0;
+}
+
+#accountErrorDiv {
+    display: none;
+    width: 300px;
+    height: 50px;
+    margin-left: 20px;
+    border: solid 1px #e14d0f;;
+    color: #e14d0f;
+    font-family: verdana, arial;
+    font-size: 12px;
+}
+
+#btnLogout {
+    width: 70px;
+    height: 30px;
+    border: 0;
+    float: left;
+    margin-top: 10px;
+    background-color: yellowgreen;
+    color: white;
+    margin-left: 196px;
+}
+
+select#soflow, select#soflow-color {
+    -webkit-appearance: button;
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 3px #1ab188;
+    -webkit-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -webkit-user-select: none;
+    background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#53d1b0, #53d1b0 40%, #1ab188);
+    background-position: 95% center;
+    background-repeat: no-repeat;
+    border: 0px solid #1ab188;
+    color: #555;
+    font-size: inherit;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 5px 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 250px;
+ }
+ 
+ select#soflow-color {
+    color: #fff;
+    background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#53d1b0, #53d1b0 40%, #53d1b0);
+    background-color: #53d1b0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    padding-left: 15px;
+ }
